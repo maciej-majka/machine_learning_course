@@ -5,7 +5,7 @@ This is a selection of projects, which I wrote for the course [Machine Learning 
 * ## Backpropagation
   This is implementation of NN and its teaching 'by hand', using NumPy's fast array operations. An image is probed randomly to generate teaching data. After enough teaching, NN can recreate the image on the regular mesh of points. Major components: 
   * implementatin of backpropagation algorithm
-  * implementation of stochastic gradient descent
+  * implementation of stochastic gradient descent + ADAM
   * visualizations
 
 * ## Reinforced Learning
