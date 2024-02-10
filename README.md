@@ -1,6 +1,13 @@
 # Excersises in Machine Learning and Neural Networks
 
-This is a selection of projects, which I wrote for the course [Machine Learning for Physicist](https://pad.gwdg.de/s/Machine_Learning_For_Physicists_2021) by Florian Marquardt from FAU (btw: great learning materials and [lectures on YT](https://www.youtube.com/watch?v=qMp3s7D_8Xw&list=PLemsnf33Vij4eFWwtoQCrt9AHjLe3uo9_)!) The course makes heavy use of _NumPy_ (especially fast array operations for parallel data processing and random number generation) and _matplotlib_ for visualizations.  _Keras_ is used for construction and teaching of Neural Networks (NN), except for the first excersize.
+This is a selection of projects, which I wrote for the course [Machine Learning for Physicist](https://pad.gwdg.de/s/Machine_Learning_For_Physicists_2021) by Florian Marquardt from FAU (btw: great learning materials and [lectures on YT](https://www.youtube.com/watch?v=qMp3s7D_8Xw&list=PLemsnf33Vij4eFWwtoQCrt9AHjLe3uo9_)!) The course makes heavy use of `NumPy` (especially fast array operations for parallel data processing and random number generation) and `matplotlib` for visualizations.  `Keras` is used for construction and teaching of Neural Networks (NN), except for the very first excersize.
+
+<p align='center'> 
+  <img src='plots/01_prediction.png' height=150>
+  <img src='plots/NN_struct_vis.png' height=150>
+  <img src='plots/circ_to_square.png' height=150>
+  <img src='plots/RL.png' height=150>
+</p>
 
 ## 1. Backpropagation and ADAM
   This is the implementation of NN and its teaching 'by hand', using NumPy's fast array operations. An image is probed randomly to generate teaching data. After enough teaching, NN can recreate the image on the   regular mesh of points. Main components: 
