@@ -10,7 +10,7 @@ This is a selection of short projects, which I wrote for the course [Machine Lea
 </p>
 
 ## 1. Backpropagation and ADAM
-  `01_backpropagation_and_visualization.ipynb`: This is the implementation of NN and its teaching 'by hand', using NumPy's fast array operations. An image is probed randomly to generate teaching data. After enough teaching, NN can recreate the image on the   regular mesh of points. Main components: 
+  `01_backpropagation_and_visualization.ipynb`: This is the implementation of NN and its training 'by hand', using NumPy's fast array operations. An image is probed randomly to generate training data. After enough training, NN can recreate the image on the regular mesh of points. Main components: 
   * implementatin of backpropagation algorithm
   * implementation of stochastic gradient descent and ADAM
   * visualizations (input vs. output, dynamics of NN learning, effects of neuron knockouts)
